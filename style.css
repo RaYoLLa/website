@@ -1,20 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
 p {
   background-color: rgb(11, 11, 11);
-  margin-left: 780px;
-  margin-right: 780px;
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-family: Handjet;
   border-radius: 45px;
   font-size: 50px;
   color: rgb(114, 113, 113);
   text-align: center;
-  margin-top: 400px;
   transition: opacity 0.25s;
-  filter: drop-shadow(-5px 0px 30px #080f6d)
+  filter: drop-shadow(-5px 0px 30px #080f6d);
 }
 
 p:hover {
   opacity: 0.6;
 }
 
+@media (max-width: 768px) {
+  p {
+    font-size: 30px; /* Smaller font size for phones/tablets */
+    padding: 10px 15px; /* Adjusted padding */
+  }
+}
