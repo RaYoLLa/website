@@ -27,7 +27,6 @@ p:hover {
 
 @media (max-width: 768px) {
   p {
-    font-size: 30px; /* Smaller font size on mobile */
-    padding: 10px 15px; /* Adjust padding */
-  }
+    font-size: 30px;
+    padding: 10px 15px;
 }
