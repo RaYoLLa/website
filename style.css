@@ -1,4 +1,4 @@
-.loading {
+p {
   background-color: rgb(11, 11, 11);
   margin-left: 780px;
   margin-right: 780px;
@@ -14,7 +14,7 @@
   filter: drop-shadow(-5px 0px 30px #080f6d)
 }
 
-.loading:hover {
+p:hover {
   opacity: 0.6;
 }
 
