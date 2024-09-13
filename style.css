@@ -15,9 +15,13 @@ p {
   font-size: 50px;
   color: rgb(114, 113, 113);
   text-align: center;
-  opacity: 0; 
-  transition: opacity 1.5s ease-in; 
-  filter: drop-shadow(-5px 0px 30px #4d0505);
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out; 
+  filter: drop-shadow(-5px 0px 30px #080f6d);
+}
+
+p.visible {
+  opacity: 1; /
 }
 
 p:hover {
