@@ -12,7 +12,7 @@ p {
   padding: 10px 20px;
   font-family: Handjet;
   border-radius: 45px;
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(114, 113, 113);
   text-align: center;
   opacity: 0;
@@ -30,7 +30,7 @@ p:hover {
 
 @media (max-width: 768px) {
   p {
-    font-size: 30px;
+    font-size: 40px;
     padding: 10px 15px;
   }
 }
